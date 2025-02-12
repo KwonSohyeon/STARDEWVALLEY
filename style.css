@@ -65,6 +65,14 @@ li > a {
     color: #ffffff;
 } 
 
+li:hover {
+    background-color: #246021;
+}
+
+li:hover > a{
+    color: #FED789;
+}
+
 .logo_content { 
     width: 400px;
     height: 200px;
@@ -97,6 +105,19 @@ li > a {
     align-items: center;
     background-color: #C2C2C2;
     border: 3px solid #5B2B2A;
+}
+
+.spring_content:hover{
+    background-color: #DC57DF;
+}
+.summer_content:hover{
+    background-color: #39782C;
+}
+.autumn_content:hover{
+    background-color: #992623;
+}
+.winter_content:hover {
+   background-color: #4FA1E0;
 }
 
 .season_name {
@@ -209,10 +230,12 @@ section {
     background-color: #FED789;
 }
 
+.text{
+    color: #8D442A;
+}
 /* 🔹 스토리 영역 */
 .story_content {
     width: 100%;
-    
     display: flex;
 }
 
@@ -247,6 +270,12 @@ iframe {
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.book{
+    top: -10px;
+    right: 100px;
+    position: absolute;
 }
 
 .story_img {
